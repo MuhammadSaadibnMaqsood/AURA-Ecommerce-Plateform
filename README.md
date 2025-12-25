@@ -39,28 +39,28 @@ This project is built for **learning, portfolio demonstration, and practical ful
 
 ## 📁 Project Structure
 
-AURA-Ecommerce-Plateform/
+AURA-Ecommerce-Plateform/<br/>
 │
-├── Backend/
-│ ├── controllers/ # Business logic
-│ ├── models/ # MongoDB schemas
-│ ├── routes/ # API routes
-│ ├── middleware/ # Authentication & helpers
-│ ├── utils/ # QR code & utilities
-│ ├── server.js # Backend entry point
-│ └── package.json
+├── Backend<br/>
+│ ├── controllers/ # Business logic<br/>
+│ ├── models/ # MongoDB schemas<br/>
+│ ├── routes/ # API routes<br/>
+│ ├── middleware/ # Authentication & helpers<br/>
+│ ├── utils/ # QR code & utilities<br/>
+│ ├── server.js # Backend entry point<br/>
+│ └── package.json<br/>
 │
-├── Frontend/
-│ ├── src/
-│ │ ├── components/ # Reusable components
-│ │ ├── pages/ # Application pages
-│ │ ├── services/ # API calls
-│ │ ├── App.js
-│ │ └── index.js
-│ └── package.json
+├── Frontend/<br/>
+│ ├── src/<br/>
+│ │ ├── components/ # Reusable components<br/>
+│ │ ├── pages/ # Application pages<br/>
+│ │ ├── services/ # API calls<br/>
+│ │ ├── App.js<br/>
+│ │ └── index.js<br/>
+│ └── package.json<br/>
 │
-├── .gitignore
-└── README.md
+├── .gitignore<br/>
+└── README.md<br/>
 
 
 
