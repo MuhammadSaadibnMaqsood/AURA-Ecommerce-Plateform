@@ -9,7 +9,7 @@ const useAddShop = () => {
     mutationFn: addShop,
     onSuccess: (data) => {
       queryClient.invalidateQueries(["user"]);
-      navigate("/dashboard");
+      navigate("/owner/dashboard");
     },
   });
 };

@@ -51,7 +51,7 @@ const ListedItems = ({ ownerProducts }) => {
                     {product.productName}
                   </td>
                   <td className="px-6 py-4 hidden sm:table-cell border-b border-zinc-800 text-green-400">
-                    Rs. {product.price}
+                    $. {product.price}
                   </td>
                   <td className="px-6 py-4 border-b border-zinc-800">
                     {product.stock || 0}

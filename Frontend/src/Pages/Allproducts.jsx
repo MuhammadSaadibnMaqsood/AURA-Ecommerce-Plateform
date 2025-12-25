@@ -135,9 +135,9 @@ const Allproducts = () => {
           <div className="p-10 absolute text-black z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-2xl w-96 bg-white">
             <h1 className="text-center mb-10">Price Ranges</h1>
             {[
-              { label: "0-100Rs", value: 100 },
-              { label: "0-200Rs", value: 200 },
-              { label: "0-300Rs", value: 300 },
+              { label: "0-100$", value: 100 },
+              { label: "0-200$", value: 200 },
+              { label: "0-300$", value: 300 },
             ].map((range) => (
               <div
                 key={range.value}

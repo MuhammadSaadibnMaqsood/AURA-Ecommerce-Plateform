@@ -27,7 +27,7 @@ const RegisterShop = () => {
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.5, delay: 1}}
+          transition={{ duration: 1.5, delay: 1 }}
           className="text-center group hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#c6005c] to-[#4a00b8] transition-all duration-700 ease-in-out text-5xl sm:text-6xl md:text-7xl AsimovianFont font-bold tracking-widest relative"
         >
           Registor Your Shop
@@ -68,8 +68,10 @@ const RegisterShop = () => {
               <label
                 htmlFor="shopName"
                 className="absolute cursor-pointer left-5 top-2 text-gray-400 transition-all 
-               peer-placeholder-shown:top-2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base 
-               peer-focus:top-[-10px] peer-focus:text-sm peer-focus:bg-clip-text peer-focus:text-transparent peer-focus:bg-gradient-to-r from-[#c6005c] to-[#4a00b8]"
+   peer-placeholder-shown:top-2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base 
+   peer-focus:top-[-10px] peer-focus:text-sm 
+   peer-valid:top-[-10px] peer-valid:text-sm
+   peer-focus:bg-clip-text peer-focus:text-transparent peer-focus:bg-gradient-to-r from-[#c6005c] to-[#4a00b8] peer-valid:bg-clip-text peer-valid:text-transparent peer-valid:bg-gradient-to-r from-[#c6005c] to-[#4a00b8]"
               >
                 Shop name
               </label>
@@ -87,11 +89,13 @@ const RegisterShop = () => {
                 type="text"
                 required
               />
-              <label
-                htmlFor="address"
-                className="absolute left-5 top-2 cursor-pointer text-gray-400 transition-all 
-               peer-placeholder-shown:top-2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base 
-               peer-focus:top-[-10px] peer-focus:text-sm peer-focus:bg-clip-text peer-focus:text-transparent peer-focus:bg-gradient-to-r from-[#c6005c] to-[#4a00b8]"
+                <label
+                htmlFor="shopName"
+                className="absolute cursor-pointer left-5 top-2 text-gray-400 transition-all 
+   peer-placeholder-shown:top-2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base 
+   peer-focus:top-[-10px] peer-focus:text-sm 
+   peer-valid:top-[-10px] peer-valid:text-sm
+   peer-focus:bg-clip-text peer-focus:text-transparent peer-focus:bg-gradient-to-r from-[#c6005c] to-[#4a00b8] peer-valid:bg-clip-text peer-valid:text-transparent peer-valid:bg-gradient-to-r from-[#c6005c] to-[#4a00b8]"
               >
                 Address
               </label>
@@ -110,11 +114,13 @@ const RegisterShop = () => {
                 required
               />
 
-              <label
-                htmlFor="phone"
-                className="absolute left-5 top-2 text-gray-400 cursor-pointer transition-all 
-               peer-placeholder-shown:top-2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base 
-               peer-focus:top-[-10px] peer-focus:text-sm peer-focus:bg-clip-text peer-focus:text-transparent peer-focus:bg-gradient-to-r from-[#c6005c] to-[#4a00b8]"
+             <label
+                htmlFor="shopName"
+                className="absolute cursor-pointer left-5 top-2 text-gray-400 transition-all 
+   peer-placeholder-shown:top-2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base 
+   peer-focus:top-[-10px] peer-focus:text-sm 
+   peer-valid:top-[-10px] peer-valid:text-sm
+   peer-focus:bg-clip-text peer-focus:text-transparent peer-focus:bg-gradient-to-r from-[#c6005c] to-[#4a00b8] peer-valid:bg-clip-text peer-valid:text-transparent peer-valid:bg-gradient-to-r from-[#c6005c] to-[#4a00b8]"
               >
                 Phone
               </label>
@@ -136,11 +142,13 @@ const RegisterShop = () => {
                 type="text"
                 required
               />
-              <label
-                htmlFor="description"
-                className="absolute left-5 top-2 text-gray-400 transition-all cursor-pointer
-               peer-placeholder-shown:top-2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base 
-               peer-focus:top-[-10px] peer-focus:text-sm peer-focus:bg-clip-text peer-focus:text-transparent peer-focus:bg-gradient-to-r from-[#c6005c] to-[#4a00b8]"
+                <label
+                htmlFor="shopName"
+                className="absolute cursor-pointer left-5 top-2 text-gray-400 transition-all 
+   peer-placeholder-shown:top-2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base 
+   peer-focus:top-[-10px] peer-focus:text-sm 
+   peer-valid:top-[-10px] peer-valid:text-sm
+   peer-focus:bg-clip-text peer-focus:text-transparent peer-focus:bg-gradient-to-r from-[#c6005c] to-[#4a00b8] peer-valid:bg-clip-text peer-valid:text-transparent peer-valid:bg-gradient-to-r from-[#c6005c] to-[#4a00b8]"
               >
                 Description
               </label>

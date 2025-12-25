@@ -113,7 +113,7 @@ const Login = () => {
           className="w-1/2 h-full hidden bg-black text-white p-8 md:flex flex-col justify-center"
         >
           <h1 className="text-center tekturFont sm:text-2xl md:text-3xl text-3xl font-bold tracking-wide">
-            Welcome Back 👋
+            Welcome Back to AURA
           </h1>
           <p className="pt-8 text-justify leading-relaxed text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam

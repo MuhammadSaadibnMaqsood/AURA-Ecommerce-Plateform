@@ -52,7 +52,7 @@ const ProductsSection = ({ cardData }) => {
                       {card.productName}
                     </p>
                     <p className="text-white text-lg font-semibold text-center">
-                      Price: <b>{card.price}Rs</b>
+                      Price: <b>{card.price}$</b>
                     </p>
                   </div>
                 </div>

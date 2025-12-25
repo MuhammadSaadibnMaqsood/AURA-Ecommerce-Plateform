@@ -4,19 +4,17 @@ import connectDB from "./config/db.js";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import userRouter from "./routes/userRoutes.js";
-import cloudinary from "./config/cloudinary.js";
 import shopRouter from "./routes/shopRouter.js";
 import productRouter from "./routes/productRoutes.js";
 import bookingRouter from "./routes/bookingRoutes.js";
-import connetCloudinary from "./config/cloudinary.js";
+
 
 dotenv.config({ path: "./.env" });
 const PORT = process.env.PORT || 3000;
 
 // connectivity to MongoDB
 connectDB();
-// connectivity to Cloudinary
-// connetCloudinary()
+
 
 // app setup
 const app = express();
@@ -25,8 +23,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173", // frontend ka port
-    credentials: true, // cookie/session allow
+    origin: "http://localhost:5173", 
+    credentials: true, 
   })
 );
 // routes
